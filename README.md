@@ -31,3 +31,12 @@ leetcode刷题记录
 4.元素累计
     
     reduce()函数
+
+5.删除列表元素可以考虑使用del，比remove函数耗时少
+6.set()函数返回的是set类，如果还要使用原先类型需要再次转换
+7.enumerate()函数可以指定初始值，enumerate(iterable, start=init_num)，返回的第一个值为索引，第二个值为可迭代的元素
+8.位运算
+    按位与：
+    按位或：
+    按位异或：
+    按位取反：
