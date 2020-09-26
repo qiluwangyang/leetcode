@@ -1,19 +1,13 @@
 # leetcode
 leetcode刷题记录
-##1 算法
-###1 回溯算法
-1.画递归树，找到状态变量
-2.确定结束条件
-3.找准选择列表
-4.判断是否剪枝
-5.做出选择，递归调用，进入下一层
-6.撤销选择
 
 ##2 技巧
 1.有序统计和无序统计
     
     有序统计：itertools.groupby    
     无序统计：collections.Counter
+        Counter继承dict类，所以也可以使用Counter(iterable).get(ele, default)
+        Counter(iterable).most_common(1)返回计数最多的键值对元组列表，类似于[('a', 2)]
 2.正则表达式
 
     匹配英文字符：\w

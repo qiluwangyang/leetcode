@@ -7,9 +7,10 @@ class Solution:
         # low b 方法
         res = []
         from collections import Counter
-        for key, value in Counter(nums).items():
-            if value == 2:
-                res.append(key)
+        # for key, value in Counter(nums).items():
+        #    if value == 2:
+        #        res.append(key)
+        res.append(Counter(nums).most_common(1)[0][0])
         for index in range(1, len(nums) + 1):
             if index not in nums:
                 res.append(index)
